@@ -1,0 +1,117 @@
+.pieChart{
+ margin-top: 13vh;
+ /* height: 35vh; */
+
+ 
+ 
+}
+
+.funnelChart{
+ margin-top: 13vh;
+ /* height: 35vh; */
+ align-items: center;
+ /* padding-left: 100px; */
+
+ border-color: aliceblue;
+   }
+.barChart{
+    margin-top: 40vh;
+    position: relative;
+    height: 30vh;
+    width:70vw;
+    margin-bottom: 15vh;
+}
+
+.stat{
+    width: 100vw;
+    text-align: center;
+}
+.charts{
+    margin-top: 1vh;
+    /* height: 7rem; */
+}
+.line{
+    
+    height: 3px;
+    margin-top:75px ;
+    /* margin-left: 50px; */
+    width: 100px;
+    background-color: rgb(0, 0, 0);
+    /* margin-left:"50%" */
+}
+
+/* .line2{
+    
+    height: 80px;
+    margin-left: 99px;
+    width: 2px;
+    background-color: rgb(75, 75, 75);
+
+} */
+.status{
+     height: 50px;
+     width: 200px;
+    padding-top: 1vh;
+    right:0px; 
+    text-align: center;
+    /* margin-top: 90px; */
+    background-color: rgb(96, 114, 194); 
+    /* border-radius: 50px !important;  */
+    font-size: 20px; 
+    color: rgb(255, 255, 255);    
+    border: 2px solid rgb(0, 0, 0);  
+}
+.grid-flow{
+    height: 87vh;
+    width: 100%;
+    /* overflow-x: scroll; */
+    /* background-color: aliceblue; */
+}
+.flow{
+    /* background-color: green; */
+    margin-top: 20vh;
+    /* height: 20vh; */
+    display: flex;
+    direction: row;
+
+    height: 50vh;
+    bottom: 40px;
+    width: 90%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+ 
+}
+.flow .box{
+    height: 300px;
+    width: 200px;
+   padding-top: 1vh;
+   right:0px; 
+   text-align: center;
+   /* background-color: rgb(36, 36, 37);  */
+   /* border-radius: 50px !important;  */
+   font-size: 20px; 
+   color: rgb(12, 11, 11);    
+   /* border: 2px solid rgb(0, 0, 0);   */
+}
+/* .report-flow{
+    overflow-x: scroll;
+    height: 95vh;
+} */
+
+
+
+@media only screen and (max-width: 767px) {
+    .status{
+        font-size: 12px;
+        width: 150px;
+        height: 40px;
+    }
+    .flow .box{
+        width: 150px;
+        font-size: 14px;
+    }
+    .line{
+        margin-top: 60px;
+        width: 70px;
+    }
+}

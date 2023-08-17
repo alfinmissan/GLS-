@@ -1,0 +1,67 @@
+.teabag-form{
+    text-align: center;
+    
+}
+.admin{
+    margin-top: 16vh;
+  }
+  
+  .heading-box{
+    height: 40px;
+    padding-top: 5px;
+    font-size: large;
+    font-family: futura;
+    color: #797979;
+  }
+
+.head{
+    background-color: rgb(196, 201, 195);
+    color: rgb(46, 44, 44);
+    border-radius: 5px !important;
+    font-family: futura;
+}
+
+.teabag-form .items{
+    background-color: rgba(127, 158, 158, 0.295);
+    margin: 2px;
+}
+/* .admin-cards{
+    overflow-y: scroll;
+} */
+
+.upload{
+    background-color: #eeee;
+}
+.upload:hover{
+    background-color: #c9c6c6ee;
+}
+.fonts{
+    margin-bottom: 1px;
+    padding-top: 2px;
+    border-bottom: 1px solid rgba(197, 197, 197, 0.651);
+}
+.font-heading{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1;
+}
+
+@media only screen and (max-width: 767px) {
+   .col{
+    font-size: 16px;
+   }
+   .heading-box .active{
+  
+    height: 50px;
+    padding-top: 5px;
+    font-size: 14px;
+    font-family: futura;
+    color: white;
+    border-bottom:2px solid rgb(36, 102, 50);
+  }
+  
+   .content{
+    width: 70%;
+   }
+}

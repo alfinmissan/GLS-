@@ -1,0 +1,168 @@
+.task-list{
+    width: 100vw;
+    height: 100vh;
+    /* overflow: hidden; */
+}
+.task-search{
+    margin-top: 4.6rem;
+    padding-top: 20px;
+    position: sticky;
+    position: -webkit-sticky;
+    overflow:visible;
+    /* position: relative; */
+    top: 4.6rem;
+    z-index:1;
+    width: 100%;
+    background-color: rgb(227, 228, 227);
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    margin-bottom: 20px;
+}
+.task-list .btns{
+    background-color: #1d4934;
+    width: 150px;
+    color: white;
+    border-radius: 10px !important;
+    box-shadow: 2px 2px #eae1c2;
+    overflow: hidden;
+    transition: all 0.5s;
+    position: relative;
+    margin-top: 40px;
+  }
+
+ .task-heading .row{
+    background-color: #c05e5eee;
+  }
+  .task-list .tasklist-heading{
+    /* padding-top: 1vh; */
+    background: #eeee;
+    height: 6vh;
+    top:20rem;
+    margin-top: 0rem;
+  }
+  .task-list .tasklist-heading {
+    height: 40px;
+    /* padding-top: 5px; */
+    font-size: large;
+    font-family: futura;
+    color: #797979ee;
+    top:20rem;
+  }
+  .active{
+  height: 43px;
+  padding-top: 5px;
+  font-size: large;
+  font-family: futura;
+  color: white;
+  /* top:-15px; */
+  background-color: #1d4934;
+  /* border-bottom:3px solid rgb(36, 102, 50); */
+  }
+  .task-list .task-table{
+    margin-top: 20px;
+    z-index: -1;
+    margin-bottom:30px ;
+    top:45rem;
+  }
+
+
+  .task-list table thead{
+    position: sticky;
+    position: -webkit-sticky;
+    /* top: 20rem; */
+    /* overflow-y: scroll; */
+  }
+  .task-list table tbody{
+     margin-bottom: 1rem; 
+     overflow: auto;
+  }
+    
+    
+  
+  .pending-table{
+    width: 90vw;
+    z-index: -1;
+ 
+  }
+  .completed-table{
+    width: 90vw;
+    z-index: -1;
+  }
+  .taskTable{
+    height: 20rem; 
+    display: inline-block;
+    overflow-y: auto;
+    overflow-x: auto;
+    padding-bottom: 35px;
+    width: 100%;
+  }
+  .taskTable thead{
+     top: 0;
+     position: sticky;
+     color: white;
+  }
+  
+  .gridfooter{
+    position: fixed;
+    bottom: 1rem;
+    background-color: white;
+   
+  }
+  .reject{
+    color: white;
+    /* text-align: left; */
+    background-color: rgb(185, 26, 26);
+    padding-top:5px ;
+    height:40px;
+    cursor: pointer;
+  }
+  .approve{
+    color: white;
+    /* text-align:right; */
+    background-color: #1d4934;
+    padding-top:5px ;
+    height:40px;
+    cursor: pointer;
+  }
+  .gridfooter .btn{
+    width: 20vw;
+  }
+  .approve .btn{
+    color: white;
+    background-color: #1d4934;
+  }
+  .reject .btn{
+    background-color: red;
+  }
+  .approve .btn:hover{
+    color: white;
+    background-color: #1d4934be;
+  }
+  .reject .btn:hover{
+    background-color: rgba(255, 0, 0, 0.747);
+  }
+
+.pop-up-header{
+  background-color: #eeee;
+  font-family: futura;
+}
+  /* @media only screen and (min-width: 300px) {
+    .task-list{
+      width: 550px;
+      height: 100%;
+  }
+  
+    }
+    @media only screen and (min-width: 600px) {
+      .task-list{
+        width: 100%;
+        height: 100%;
+    }} */
+
+    @media only screen and (max-width: 767px) {
+      .taskTable{
+        height: 400px;
+        
+      }
+
+
+}
